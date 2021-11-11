@@ -1,3 +1,4 @@
+//list of main messages
 const m1 = "If you love someone, set them free. If they come back they're yours; if they don't they never were. -Richard Bach"
 const m2 = "To be free and to live a free life - that is the most beautiful thing there is. -Miguel Indurain"
 const m3 = "Language is a process of free creation; its laws and principles are fixed, but the manner in which the principles of generation are used is free and infinitely varied. Even the interpretation and use of words involves a process of free creation. -Noam Chomsky"
@@ -8,3 +9,6 @@ const m7 = "The best and most beautiful things in the world cannot be seen or ev
 const m8 = "Perfection is not attainable, but if we chase perfection we can catch excellence. -Vince Lombardi"
 const m9 = "Keep your face always toward the sunshine - and shadows will fall behind you. -Walt Whitman"
 const m10 = "No act of kindness, no matter how small, is ever wasted. -Aesop"
+
+//array of message variables
+const mArr = [m1, m2, m3, m4, m5, m6, m7, m8, m9, m10];
