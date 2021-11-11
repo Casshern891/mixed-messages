@@ -16,3 +16,5 @@ Navigate to the mixed-messages directory.
 Use the command node main.js.
 
 ## Sources
+
+Quotes from brainyquote.com
