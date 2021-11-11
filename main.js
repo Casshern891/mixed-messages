@@ -1,7 +1,9 @@
 //list of possible main messages
 const m1 = "If you love someone, set them free. If they come back they're yours; if they don't they never were. -Richard Bach"
 const m2 = "To be free and to live a free life - that is the most beautiful thing there is. -Miguel Indurain"
-const m3 = "Language is a process of free creation; its laws and principles are fixed, but the manner in which the principles of generation are used is free and infinitely varied. Even the interpretation and use of words involves a process of free creation. -Noam Chomsky"
+const m3 = `Language is a process of free creation; its laws and principles are fixed, but the manner in which the principles 
+of generation are used is free and infinitely varied. Even the interpretation and use of words involves a process of 
+free creation. -Noam Chomsky`
 const m4 = "There is no must in art because art is free. -Wassily Kandinsky"
 const m5 = "If we don't believe in freedom of expression for people we despise, we don't believe in it at all. -Noam Chomsky"
 const m6 = "Every renaissance comes to the world with a cry, the cry of the human spirit to be free. Anne Sullivan"
@@ -21,5 +23,30 @@ const g4 = "Good day"
 const g5 = "Good to see you"
 
 // array of greetings variables
-
 const gArr = [g1, g2, g3, g4, g5];
+
+//list of possible signoffs
+const s1 = "Until next time"
+const s2 = "Have a great day"
+const s3 = "Thanks for stopping by"
+const s4 = "See you soon"
+const s5 = "Remember to be mindfull in the present moment"
+
+//array of signoffs
+const sArr = [s1, s2, s3, s4, s5];
+
+//functions to produce random messages
+function randM(){
+    let i = Math.floor(Math.random() * mArr.length);
+    return mArr[i];  
+}
+
+function randG(){
+    let i = Math.floor(Math.random() * gArr.length);
+    return gArr[i];  
+}
+
+function randS(){
+    let i = Math.floor(Math.random() * sArr.length);
+    return sArr[i];  
+}
