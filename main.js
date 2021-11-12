@@ -54,3 +54,11 @@ function randS(){
 const greeting = randG();
 const mainM = randM();
 const signoff = randS();
+
+function finalMessage(){
+    return `${greeting}! Your message is:
+    ${mainM}.
+    ${signoff}!`;
+}
+
+console.log(finalMessage());
