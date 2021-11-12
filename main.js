@@ -50,3 +50,7 @@ function randS(){
     let i = Math.floor(Math.random() * sArr.length);
     return sArr[i];  
 }
+//Putting the final message together
+const greeting = randG();
+const mainM = randM();
+const signoff = randS();

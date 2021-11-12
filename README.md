@@ -6,7 +6,7 @@ This project aims to produce a random message in the command line. These will be
 
 ## Technologies
 
-Javascript
+Javascript ES6
 Node
 
 ## Launch
